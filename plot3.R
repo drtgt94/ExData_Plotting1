@@ -1,3 +1,5 @@
+#load sqldf package
+library(sqldf)
 #Read in data - only reads in data where date is Feb 1st or 2nd 2007
 powerData <- read.csv.sql("./data/household_power_consumption.txt"
                           , header = TRUE
